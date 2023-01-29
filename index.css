@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    /* padding: 20px; */
+    background-color: wheat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box1{
+    height: 50px;
+    background-color: red;
+    height: 80vh;
+    width: 80%;
+    
+}
+
+.box2{
+    height: 50px;
+    background-color: brown; 
+    width: 100%;
+    height: 40vh;
+    position: sticky;
+    top: 0;
+}
+
+.box3{
+    height: 50px;
+    background-color: darkgreen;
+    width: 100%;
+    height: 40vh;
+}
+
+.box1 div{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+}
